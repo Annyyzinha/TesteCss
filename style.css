@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.7; 
+    margin: 0; 
+    padding: 20px; 
+
+    background-image: url('https://via.placeholder.com/1920x1080?text=Background+Flores'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center center; 
+    color: #f0f0f0; 
+    text-shadow: 1px 1px 3px #000; 
+}
+
+h1, h2, h3, h4 {
+    color: #FFD700; 
+    text-shadow: 2px 2px 4px #000; 
+    margin-bottom: 15px;
+    text-align: center; 
+}
+
+#flor-rosa {
+    color: #FFB6C1; 
+    font-weight: bold; 
+    border-left: 5px solid #E9967A; 
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    background-color: rgba(255, 182, 193, 0.1); 
+}
+
+#flor-tulipa {
+    font-style: italic; 
+    border: 2px dashed #FFA07A; 
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 160, 122, 0.15); 
+}
+
+#flor-girassol {
+    color: #FFFF00; 
+    text-shadow: 1px 1px 2px #000; 
+    margin-bottom: 20px;
+}
+
+#flor-orquidea {
+    color: #DA70D6; 
+    text-decoration: underline wavy #DA70D6; 
+    margin-bottom: 20px;
+    background-color: rgba(218, 112, 214, 0.1); 
+    padding: 5px;
+}
+
+#flor-lirio {
+    font-family: 'Georgia', serif; 
+    border-bottom: 3px double #ADD8E6; 
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+#flor-margarida {
+    color: #F0E68C; 
+    background-color: rgba(255, 250, 205, 0.2); 
+    padding: 10px;
+    border-radius: 8px; 
+    margin-bottom: 20px;
+}
+
+strong {
+    color: #fff; 
+}
