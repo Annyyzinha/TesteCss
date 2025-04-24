@@ -4,11 +4,11 @@ body {
     margin: 0; 
     padding: 20px; 
 
-    background-image: url('https://via.placeholder.com/1920x1080?text=Background+Flores'); 
+    background-image: url('flores.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
-    background-position: center center; 
+    background-position: center; 
     color: #f0f0f0; 
     text-shadow: 1px 1px 3px #000; 
 }
@@ -26,7 +26,8 @@ h1, h2, h3, h4 {
     border-left: 5px solid #E9967A; 
     padding-left: 10px;
     margin-bottom: 20px; 
-    background-color: rgba(255, 182, 193, 0.1); 
+    background-color: rgba(255, 182, 193, 0.1);
+    text-align: center 
 }
 
 #flor-tulipa {
@@ -34,13 +35,15 @@ h1, h2, h3, h4 {
     border: 2px dashed #FFA07A; 
     padding: 10px;
     margin-bottom: 20px;
-    background-color: rgba(255, 160, 122, 0.15); 
+    background-color: rgba(255, 160, 122, 0.15);
+    text-align: center
 }
 
 #flor-girassol {
     color: #FFFF00; 
     text-shadow: 1px 1px 2px #000; 
     margin-bottom: 20px;
+    text-align: center
 }
 
 #flor-orquidea {
@@ -49,6 +52,7 @@ h1, h2, h3, h4 {
     margin-bottom: 20px;
     background-color: rgba(218, 112, 214, 0.1); 
     padding: 5px;
+    text-align: center
 }
 
 #flor-lirio {
@@ -56,6 +60,7 @@ h1, h2, h3, h4 {
     border-bottom: 3px double #ADD8E6; 
     padding-bottom: 8px;
     margin-bottom: 20px;
+    text-align: center
 }
 
 #flor-margarida {
@@ -64,6 +69,7 @@ h1, h2, h3, h4 {
     padding: 10px;
     border-radius: 8px; 
     margin-bottom: 20px;
+    text-align: center
 }
 
 strong {
